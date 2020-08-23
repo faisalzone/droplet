@@ -1,0 +1,7 @@
+**.idea
+*.sqlite3
+*pyc
+.env
+mymedia
+.DS_Store
+docker-compose.yml

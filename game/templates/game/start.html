@@ -1,0 +1,56 @@
+{% extends "_base.html" %}
+{% load static %}
+
+{% block title %}
+    Start | eSplash
+{% endblock %}
+
+{% block banner %}
+    <style>
+    .wrapper {
+  position: relative;
+}
+
+    .wrapper img {
+      width: 100%;
+    }
+
+    .wrapper label {
+      color: #000000;
+      font-size: 24px;
+      position: absolute;
+    }
+
+    .wrapper #id1 {
+      left: 47%;
+      top: 20%;
+      bottom: 50%;
+      right: 50%;
+    }
+    </style>
+{#    <center><h3><span style="color: royalblue"><i>Let's Begin</i></span></h3></center>#}
+    <div class="wrapper">
+    <label id="id1">Start</label>
+        <img src="{% static 'img/game_banner.png' %}" width="100%"></div>
+{% endblock %}
+
+{% block content %}
+<br>
+<div style="text-align: center;">
+    <h3 class="display-4">Imagine</h3><br>
+    <p class="lead">
+        Over 25 million Australians are<br>
+        now without water.<br><br>
+        You're one of them.<br><br>
+        You don't have any water in<br>
+        reserve for months.<br><br>
+        And you're down to your last<br>
+        10 buckets (i.e. 100 litres) of<br>
+        water for the next 7 days.
+    </p>
+<br>
+<a href="{% url 'game:day_one_task_one' %}" class="btn btn-primary btn-lg">LET'S DO THIS!</a>
+<br><br><br><br><br><br><br><br>
+</div>
+
+{% endblock %}
