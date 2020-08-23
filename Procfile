@@ -1,0 +1,1 @@
+web: gunicorn droplet.wsgi --log-file -
