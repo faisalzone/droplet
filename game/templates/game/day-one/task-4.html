@@ -121,6 +121,10 @@
 
 {% block content %}
 <br>
+{% if remaining_water <= 0 %}
+    {% include 'game/_end.html' %}
+
+{% else %}
 <div style="text-align: center;">
     <p class="lead">
         <b><mark>Remaining: {{ remaining_water }} litre</mark></b><br>
@@ -143,4 +147,5 @@
 
     </p>
 </div>
+    {% endif %}
 {% endblock %}
