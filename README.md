@@ -1,5 +1,5 @@
 # eSplash
-A project created for PeninsulaHack2020
+A project created for <a href="https://www.facebook.com/peninsulahack">PeninsulaHack2020</a>. Project has won the first prize competing with five other teams of contestants. 🏆🥇
 
 eSplash is here to create self awareness and puts players in a position of balancing on the edge of water scarcity.
 
